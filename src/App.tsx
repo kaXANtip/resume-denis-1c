@@ -143,7 +143,7 @@ export default function App() {
                   <span className="hw-block"><span className={`hw ${hw1 ? 'in' : ''}`} id="hw1">Денис</span></span>
                   <span className="hw-block"><span className={`hw hw-accent ${hw2 ? 'in' : ''}`} id="hw2">Исламов</span></span>
                 </h1>
-                <p className="hero-tagline">Дорабатываю 1С под конкретные задачи бизнеса. Сначала разбираюсь как устроен процесс, потом пишу. AI использую чтобы работать быстрее — не вместо головы.</p>
+                <p className="hero-tagline">Дорабатываю 1С под конкретные задачи бизнеса. Сначала разбираюсь как устроен процесс, потом пишу.</p>
                 <div className="hero-pills">
                   <span className="hero-pill">1С 8.3 · УТ · ERP · БП · КА</span>
                   <span className="hero-pill">СКД · Расширения · API</span>
@@ -351,11 +351,11 @@ export default function App() {
                 <p className="about-text rev d2">
                   Пишу на 1С для конкретных бизнес-задач — дорабатываю конфигурации, строю интеграции, оптимизирую запросы. Привык работать напрямую: сам иду к руководителю отдела, разбираюсь в процессе, перевожу в код. Без лишних посредников быстрее и точнее.<br /><br />
                   Claude и ChatGPT использую каждый день — шаблонный код, однотипные запросы, документацию. Освобождает время на то где нужна голова, а не руки.<br /><br />
-                  Участвовал в программе <strong>«Практикум» МШУ СКОЛКОВО</strong> совместно с руководителем компании. Разбирали кейсы, считали экономику, смотрели на бизнес глазами собственника. После этого проще объяснять зачем нужна та или иная доработка и сколько она реально стоит.
+                  Участвовал в программе <strong>«Практикум» МШУ СКОЛКОВО</strong>. Разбирали кейсы, считали экономику, смотрели на бизнес глазами собственника. После этого проще объяснять зачем нужна та или иная доработка и сколько она реально стоит.
                 </p>
               </div>
               <div className="about-facts">
-                <div className="afact rev d1" {...ce}><span className="afact-ico"><GraduationCap size={18} /></span>Строительный университет, ПГС, 3 курс</div>
+                <div className="afact rev d1" {...ce}><span className="afact-ico"><GraduationCap size={18} /></span>Строительный университет, ПГС</div>
                 <div className="afact rev d2" {...ce}><span className="afact-ico"><Building size={18} /></span>МШУ Сколково: Практикум</div>
                 <div className="afact rev d3" {...ce}><span className="afact-ico"><MapPin size={18} /></span>Санкт-Петербург</div>
                 <div className="afact rev d4" {...ce}><span className="afact-ico"><Globe size={18} /></span>English: B1/B2</div>
@@ -369,8 +369,8 @@ export default function App() {
           <div className="wrap">
             <div className="contact-box rev">
               <div className="slabel" style={{ marginBottom: '14px' }}>contact</div>
-              <h2 className="contact-title">Давайте работать</h2>
-              <p className="contact-sub">Готов к проектам и штату. Удалённо или в офисе — без разницы.</p>
+              <h2 className="contact-title">Мои контакты</h2>
+              <p className="contact-sub">Готов к проектам и штату.</p>
               <div className="contact-btns">
                 <a href="https://t.me/online111online" className="btn-tg" {...ce}>
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-2.04 9.603c-.15.658-.557.818-1.126.508l-3.108-2.29-1.5 1.442c-.165.166-.305.305-.627.305l.222-3.158 5.76-5.197c.25-.221-.055-.344-.386-.123L6.55 14.52l-2.942-.92c-.639-.2-.652-.638.134-.945l11.546-4.452c.532-.194 1.0.13.274.045z"/></svg>
