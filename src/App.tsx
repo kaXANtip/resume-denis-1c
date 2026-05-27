@@ -143,7 +143,7 @@ export default function App() {
                   <span className="hw-block"><span className={`hw ${hw1 ? 'in' : ''}`} id="hw1">Денис</span></span>
                   <span className="hw-block"><span className={`hw hw-accent ${hw2 ? 'in' : ''}`} id="hw2">Исламов</span></span>
                 </h1>
-                <p className="hero-tagline">Дорабатываю 1С под конкретные задачи бизнеса. Сначала разбираюсь как устроен процесс, потом пишу.</p>
+                <p className="hero-tagline">Дорабатываю 1С под конкретные задачи бизнеса.</p>
                 <div className="hero-pills">
                   <span className="hero-pill">1С 8.3 · УТ · ERP · БП · КА</span>
                   <span className="hero-pill">СКД · Расширения · API</span>
@@ -184,31 +184,7 @@ export default function App() {
           </div>
         </section>
 
-        {/* ════ VALUE PROPOSITION ════ */}
-        <section id="stats" style={{ padding: '80px 0', borderTop: '1px solid rgba(0,0,0,0.06)', borderBottom: '1px solid rgba(0,0,0,0.06)', background: 'var(--bg-card)' }}>
-          <div className="wrap">
-            <div className="slabel rev">value</div>
-            <h2 className="sec-h2 rev d1" style={{ marginBottom: '40px' }}>Как я строю работу</h2>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '32px' }}>
-              <div className="rev d1" style={{ background: 'var(--bg-subtle)', padding: '36px', borderRadius: 'var(--r-lg)' }}>
-                <div style={{ marginBottom: '20px' }}><Target size={32} color="var(--accent)" strokeWidth={1.5} /></div>
-                <h3 style={{ fontSize: '19px', fontWeight: 700, marginBottom: '14px', letterSpacing: '-0.3px', color: 'var(--text)' }}>Сначала разбираюсь, потом пишу</h3>
-                <p style={{ fontSize: '14.5px', color: 'var(--text-muted)', lineHeight: 1.7 }}>Прихожу в отдел и смотрю как работают люди — где тормозит, где ошибки, что делается руками каждый день. Задачу пишу только после этого. Иначе можно сделать точно по ТЗ и не попасть в проблему.</p>
-              </div>
-              <div className="rev d2" style={{ background: 'var(--bg-subtle)', padding: '36px', borderRadius: 'var(--r-lg)' }}>
-                <div style={{ marginBottom: '20px' }}><Zap size={32} color="var(--accent)" strokeWidth={1.5} /></div>
-                <h3 style={{ fontSize: '19px', fontWeight: 700, marginBottom: '14px', letterSpacing: '-0.3px', color: 'var(--text)' }}>Код, в который не страшно зайти</h3>
-                <p style={{ fontSize: '14.5px', color: 'var(--text-muted)', lineHeight: 1.7 }}>Комментирую, называю переменные по-человечески, работаю через расширения — типовая конфигурация остаётся на поддержке. Следующий разработчик должен понять что сделано, не звоня мне.</p>
-              </div>
-              <div className="rev d3" style={{ background: 'var(--bg-subtle)', padding: '36px', borderRadius: 'var(--r-lg)' }}>
-                <div style={{ marginBottom: '20px' }}><Briefcase size={32} color="var(--accent)" strokeWidth={1.5} /></div>
-                <h3 style={{ fontSize: '19px', fontWeight: 700, marginBottom: '14px', letterSpacing: '-0.3px', color: 'var(--text)' }}>Готово — когда люди пользуются, а не когда написано</h3>
-                <p style={{ fontSize: '14.5px', color: 'var(--text-muted)', lineHeight: 1.7 }}>Написать код — это половина. Потом тест, правки по итогам, обучение если надо. Задача закрыта тогда когда сотрудники реально перешли на новый процесс, а не вернулись к старому через неделю.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
+        
         {/* ════ CASES ════ */}
         <section id="cases">
           <div className="wrap">
@@ -370,7 +346,6 @@ export default function App() {
             <div className="contact-box rev">
               <div className="slabel" style={{ marginBottom: '14px' }}>contact</div>
               <h2 className="contact-title">Мои контакты</h2>
-              <p className="contact-sub">Готов к проектам и штату.</p>
               <div className="contact-btns">
                 <a href="https://t.me/online111online" className="btn-tg" {...ce}>
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-2.04 9.603c-.15.658-.557.818-1.126.508l-3.108-2.29-1.5 1.442c-.165.166-.305.305-.627.305l.222-3.158 5.76-5.197c.25-.221-.055-.344-.386-.123L6.55 14.52l-2.942-.92c-.639-.2-.652-.638.134-.945l11.546-4.452c.532-.194 1.0.13.274.045z"/></svg>
